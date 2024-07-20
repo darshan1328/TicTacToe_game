@@ -45,6 +45,11 @@ Gameplay Instructions:
 
  Input Format: Players should input their moves in the format '1' or '0'
 
+
+ Future Improvements
+ 
+ Graphical Interface: Develop a graphical user interface (GUI) using JavaFX or Swing.
+
    
 
 
