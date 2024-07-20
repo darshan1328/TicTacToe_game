@@ -21,3 +21,10 @@ Java: Core programming language.
 Git: Version control system.
 
 GitHub: Hosting repository and project documentation.
+
+![image](https://github.com/user-attachments/assets/1eea16c1-7aba-4481-8cad-6f3403979ce8)   ![image](https://github.com/user-attachments/assets/2d477b30-72a3-4fb6-a941-22440b4a54c4)   ![image](https://github.com/user-attachments/assets/c7ec9e50-7677-468d-b8be-ac4e07eb4ba4)
+
+
+
+
+
