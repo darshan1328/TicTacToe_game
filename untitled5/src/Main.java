@@ -3,6 +3,7 @@ import java.util.Scanner;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
+    static char ch = ' ';
     static class Player{
         char mark;
         Player(char mark){
@@ -25,20 +26,24 @@ public class Main {
         // Check rows
         for (int i = 0; i < arr.length; i++) {
             if (arr[i][0] != ' ' && arr[i][0] == arr[i][1] && arr[i][1] == arr[i][2]) {
+                ch = arr[i][0];
                 return true;
             }
         }
         // Check columns
         for (int j = 0; j < arr.length; j++) {
             if (arr[0][j] != ' ' && arr[0][j] == arr[1][j] && arr[1][j] == arr[2][j]) {
+                ch = arr[0][j];
                 return true;
             }
         }
         // Check diagonals
         if (arr[0][0] != ' ' && arr[0][0] == arr[1][1] && arr[1][1] == arr[2][2]) {
+            ch = arr[0][0];
             return true;
         }
         if (arr[0][2] != ' ' && arr[0][2] == arr[1][1] && arr[1][1] == arr[2][0]) {
+            ch = arr[0][2];
             return true;
         }
 
@@ -46,6 +51,8 @@ public class Main {
     }
 
     public static void main(String[] args) {
+
+        System.out.println("Welcome to TicTacToe_game");
         char[][] arr = new char[3][3];
         for(int i=0; i<3; i++){
             for(int j=0; j<3; j++){
@@ -69,6 +76,11 @@ public class Main {
             }
             printB(arr);
             if (gameover(arr)){
+                if (ch == player0.mark){
+                    System.out.println("Player 0 is the Winner!");
+                }else{
+                    System.out.println("Player 1 is the Winner!");
+                }
                 break;
             }
             System.out.println("Enter the row for" + " player1");
@@ -81,8 +93,17 @@ public class Main {
                 System.out.println("Sorry wrong entering....loose the chance :(");
             }
             printB(arr);
+            if (gameover(arr)){
+                if (ch == player0.mark){
+                    System.out.println("Player 0 is the Winner!");
+                }else{
+                    System.out.println("Player 1 is the Winner!");
+                }
+                break;
+            }
 
         }
+
         System.out.println("game is over :)");
         
     }
