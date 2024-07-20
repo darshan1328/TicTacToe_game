@@ -22,7 +22,16 @@ Git: Version control system.
 
 GitHub: Hosting repository and project documentation.
 
-![image](https://github.com/user-attachments/assets/1eea16c1-7aba-4481-8cad-6f3403979ce8)   ![image](https://github.com/user-attachments/assets/2d477b30-72a3-4fb6-a941-22440b4a54c4)   ![image](https://github.com/user-attachments/assets/c7ec9e50-7677-468d-b8be-ac4e07eb4ba4)
+![image](https://github.com/user-attachments/assets/1eea16c1-7aba-4481-8cad-6f3403979ce8)   ![image](https://github.com/user-attachments/assets/2d477b30-72a3-4fb6-a941-22440b4a54c4) 
+
+
+Installation
+1. Clone the repository:
+   https://github.com/darshan1328/TicTacToe_game.git
+2. Open a new Project in IDE > Project from VCS
+3. In the src file, you can find the code
+4. Run the Main.java in your ide
+   
 
 
 
