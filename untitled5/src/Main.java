@@ -28,14 +28,12 @@ public class Main {
                 return true;
             }
         }
-
         // Check columns
         for (int j = 0; j < arr.length; j++) {
             if (arr[0][j] != ' ' && arr[0][j] == arr[1][j] && arr[1][j] == arr[2][j]) {
                 return true;
             }
         }
-
         // Check diagonals
         if (arr[0][0] != ' ' && arr[0][0] == arr[1][1] && arr[1][1] == arr[2][2]) {
             return true;
@@ -60,9 +58,9 @@ public class Main {
         Player player1 = new Player('1');
         Scanner sc = new Scanner(System.in);
         while(!gameover(arr)){
-            System.out.println("Enter the row for O");
+            System.out.println("Enter the row for" + " player0");
             int r0 = sc.nextInt();
-            System.out.println("Enter the column for O");
+            System.out.println("Enter the column for" + " player0");
             int c0 = sc.nextInt();
             if(arr[r0][c0] == ' '){
                 arr[r0][c0] = player0.mark;
@@ -73,9 +71,9 @@ public class Main {
             if (gameover(arr)){
                 break;
             }
-            System.out.println("Enter the row for 1");
+            System.out.println("Enter the row for" + " player1");
             int r2 = sc.nextInt();
-            System.out.println("Enter the column for 1");
+            System.out.println("Enter the column for" + " player1");
             int c2 = sc.nextInt();
             if(arr[r2][c2] == ' '){
                 arr[r2][c2] = player1.mark;
