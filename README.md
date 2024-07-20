@@ -31,6 +31,20 @@ Installation
 2. Open a new Project in IDE > Project from VCS
 3. In the src file, you can find the code
 4. Run the Main.java in your ide
+
+
+Usage
+
+Gameplay Instructions:
+
+ Players are prompted to enter their moves by specifying the row and column of the grid (rows are numberede :0,1,2 and column are numbered: 0,1,2)
+
+ The game alternates turns between Player 1 and Player 0.
+
+ The game ends when a player wins or when the board is full (resulting in a draw).
+
+ Input Format: Players should input their moves in the format '1' or '0'
+
    
 
 
