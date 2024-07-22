@@ -1,7 +1,7 @@
 # TicTacToe_game
 **Introduction** :computer:
 
-This project is a console-based implementation of the classic Tic-Tac-Toe game in Java. It allows two players to play the game on the same console, taking turns to place their markers ('1' or 'O') on a 3x3 grid. The game notifies players of their turn, checks for win conditions after each move.
+This project is a console-based implementation of the classic Tic-Tac-Toe game in Java. It allows *Two players* as well as *Single player*  to play the game on the same console, taking turns to place their markers ('1' or 'O') on a 3x3 grid. The game notifies players of their turn, checks for win conditions after each move.
 
 
 ***Features***
