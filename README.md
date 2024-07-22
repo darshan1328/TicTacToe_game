@@ -14,6 +14,8 @@ This project is a console-based implementation of the classic Tic-Tac-Toe game i
  
  :arrow_forward: Error Handling: Handles invalid inputs and prevents illegal moves.
 
+  :arrow_forward: Computer Algorithm Opponent: Test your skills against the computer algorithm, which employs strategic moves based on game conditions.
+
 ***Technologies Used***
 
 Java: Core programming language.
@@ -33,7 +35,7 @@ GitHub: Hosting repository and project documentation.
 4. Run the Main.java in your ide
 
 
-***Usage***
+:flashlight: ***Usage***
 
 ***Gameplay Instructions:*** :red_circle: :yellow_circle: :green_circle:
 
@@ -43,12 +45,26 @@ GitHub: Hosting repository and project documentation.
 
  :arrow_right: The game ends when a player wins or when the board is full (resulting in a draw).
 
- :arrow_right: Input Format: Players should input their moves in the format '1' or '0'
+ :arrow_right: Input Format: Players should input their moves in the format '1' or '0'.
+
+:arrow_right: For Single Player mode: You can input '1' when the Game asks you to input.
+ 
+:zap: ***Latest Update*** :zap:
+
+I am  excited to introduce Single-Player Mode with Computer Algorithm to my Tic-Tac-Toe game! Now, you can enjoy a challenging game against our computer opponent, designed to provide a competitive and enjoyable experience.
+
+![image](https://github.com/user-attachments/assets/ea3e0612-e0ae-426f-b488-2994278fd1a0)
+
+
 
 
  ***Future Improvements***
  
- Graphical Interface: Develop a graphical user interface (GUI) using JavaFX or Swing.
+ :triangular_flag_on_post:	 Graphical Interface: Develop a graphical user interface (GUI) using JavaFX or Swing.
+ 
+ :triangular_flag_on_post:	 Enhanced Algorithm : Improve the difficulty level for Single-Player mode.
+ 
+ :triangular_flag_on_post:	 Bringing Leaderboard concept which will be ranking the players in the Single-Players mode.
 
    
 
