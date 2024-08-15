@@ -1,0 +1,9 @@
+FROM openjdk:11
+
+RUN mkdir /app
+
+COPY untitled5/src/Main.java/ /app
+
+WORKDIR /app
+
+CMD java Main
